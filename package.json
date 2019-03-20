@@ -1,0 +1,25 @@
+{
+  "name": "blog-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "debug": "./node_modules/nodemon/bin/nodemon.js server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gemicat/blog-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gemicat/blog-server/issues"
+  },
+  "homepage": "https://github.com/Gemicat/blog-server#readme",
+  "dependencies": {
+    "koa": "2.7.0",
+    "koa-router": "7.4.0",
+    "nodemon": "1.18.10"
+  }
+}
